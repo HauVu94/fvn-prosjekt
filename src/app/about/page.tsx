@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import React from "react";
 
 const page = () => {
+  const url = "https://www.linkedin.com/in/hau-duc-vu-712021152";
   return (
     <>
       <Navbar />
@@ -22,8 +23,17 @@ const page = () => {
           sommerjobb, Jeg skal være hos ECO STOR ut august 2024.
         </p>
       </div>
-      <p className="flex text-center justify-center underline ">
-        Gjerne sjekk ut min LinkedIn profil for mer informasjon om meg.
+      <p className="flex text-center justify-center">
+        Gjerne sjekk ut min &nbsp;
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 underline"
+        >
+          linkedIn profil
+        </a>
+        &nbsp; for mer informasjon om meg.
       </p>
       <Footer />
     </>
