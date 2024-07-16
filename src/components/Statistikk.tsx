@@ -39,7 +39,7 @@ const Statistikk = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center my-4">
+      <div className="flex items-center justify-center my-4 p-4">
         <select
           className="border border-gray-300 px-4 py-2"
           value={selectedCity}
@@ -53,7 +53,7 @@ const Statistikk = () => {
           ))}
         </select>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center p-4">
         <table className="table-auto border-collapse border border-gray-300">
           <thead>
             <tr>

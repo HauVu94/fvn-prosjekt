@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center p-8">
         <p className="flex text-center justify-center ">
           {" "}
           Jeg er 30 år fra Kristiansand og er bosatt i Oslo. Ble nettopp ferdig

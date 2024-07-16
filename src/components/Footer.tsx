@@ -31,7 +31,7 @@ const Footer = () => {
           <FooterColumn title={SOCIALS.title}>
             <ul className="regular-14 flex gap-4 text-gray-30">
               {SOCIALS.links.map((link, index) => (
-                <a key={index} href={link.url}>
+                <a key={index} href={link.url} target={link.target}>
                   <img
                     src={link.icon}
                     alt="Social Icon"
