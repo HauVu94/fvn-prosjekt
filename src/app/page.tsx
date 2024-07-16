@@ -21,7 +21,7 @@ export default async function Home() {
 
       <Statistikk />
       <p className="flex items-center justify-center p-4">
-        Innholder i tabellen er hentet fra et JSON-fil &nbsp;
+        Innholdet i tabellen er hentet fra et JSON-fil &nbsp;
         <a
           href={url}
           target="_blank"
