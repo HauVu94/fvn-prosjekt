@@ -10,7 +10,7 @@ export default async function Home() {
       <Navbar />
 
       <div className="flex items-center justify-center text-2xl  p-4">
-        Velkommen til Hau's boligprisstatistikk
+        Velkommen til min boligprisstatistikk
       </div>
       <div>
         <p className="flex items-center justify-center p-4">
