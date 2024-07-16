@@ -21,12 +21,12 @@ export default async function Home() {
 
       <Statistikk />
       <p className="flex items-center justify-center p-4">
-        Innholdet i tabellen er hentet fra et JSON-fil &nbsp;
+        Innholdet i tabellen er hentet fra et JSON-fil
         <a
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 underline"
+          className="text-blue-500 underline ml-1"
         >
           du kan se filen her
         </a>

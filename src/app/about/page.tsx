@@ -23,18 +23,22 @@ const page = () => {
           sommerjobb, Jeg skal være hos ECO STOR ut august 2024.
         </p>
       </div>
-      <p className="flex text-center justify-center">
-        Gjerne sjekk ut min &nbsp;
+      <p className="flex text-center justify-center ml-1">
+        Gjerne sjekk ut min
         <a
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 underline"
+          className="text-blue-500 underline ml-1"
         >
-          linkedIn profil
+          LinkedIn profil
         </a>
-        &nbsp; for mer informasjon om meg.
+        <p className="flex text-center justify-center ml-1">
+          {" "}
+          for mer informasjon om meg.
+        </p>
       </p>
+
       <Footer />
     </>
   );
