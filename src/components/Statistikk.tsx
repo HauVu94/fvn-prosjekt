@@ -90,7 +90,7 @@ const Statistikk = () => {
     <>
       <div className="flex items-center justify-center my-4 p-4">
         <select
-          className="border border-gray-300 px-4 py-2"
+          className="border border-gray-300 px-4 py-2 cursor-pointer"
           value={selectedCity}
           onChange={handleCityChange}
         >
