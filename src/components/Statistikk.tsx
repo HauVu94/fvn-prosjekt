@@ -105,7 +105,7 @@ const Statistikk = () => {
 
       <div className="flex items-center justify-center my-4 p-4 relative">
         <button
-          className="border border-gray-400 px-4 py-2"
+          className="border border-gray-400 px-4 py-2 hover:bg-gray-200"
           onClick={() => setDropdownOpen(!dropdownOpen)}
         >
           Velg kolonner

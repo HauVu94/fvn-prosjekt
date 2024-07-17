@@ -10,18 +10,18 @@ export default async function Home() {
       <Navbar />
 
       <div className="flex items-center justify-center text-2xl  p-4">
-        Velkommen til min boligprisstatistikk
+        Velkommen til min boligprisstatistikk-side.
       </div>
       <div>
         <p className="flex items-center justify-center p-4">
-          Under her kan du velge pris statistikk for de 6 største byene i Norge,
-          du kan også se gjennomsnitt pris for hele Norge.
+          Her kan du velge prisstatistikk for de 6 største byene i Norge. Du kan
+          også se gjennomsnittsprisen for hele Norge.
         </p>
       </div>
 
       <Statistikk />
       <p className="flex items-center justify-center p-4">
-        Innholdet i tabellen er hentet fra et JSON-fil
+        Innholdet i tabellen er hentet fra en JSON-fil
         <a
           href={url}
           target="_blank"
